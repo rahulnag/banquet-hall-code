@@ -1,0 +1,21 @@
+.venue-container {
+    background-color: var(--background-color);
+    padding-bottom: 5rem;
+}
+
+.heading {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.subheading {
+    padding: 1rem;
+}
+
+.venue-container img {
+    position: inherit !important;
+    border-radius: var(--border-radius)
+}

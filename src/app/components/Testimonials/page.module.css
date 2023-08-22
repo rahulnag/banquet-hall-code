@@ -1,0 +1,36 @@
+.testimonial-container {
+    min-height: 15rem;
+    height: 25rem;
+}
+
+.heading {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.testimonials {
+    height: 15rem;
+    width: 23rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.message {
+    font-size: large;
+    text-align: center;
+}
+
+.name-star-container {
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
