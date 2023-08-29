@@ -11,6 +11,12 @@ export let eventsSupporting = {
   subheading: "HERE IS HOW WE CAN HELP YOU",
   eventslist: [
     {
+      name: "Pool Party",
+      details:
+        "Feel the coolness in the cold water. It's not a party until there's a swimming pool involved.",
+      color: "#1974d2",
+    },
+    {
       name: "Weddings",
       details:
         "The start of a beautiful journey deserves a beautiful setting. Let us create a wedding experience that reflects your love story.",
@@ -52,6 +58,37 @@ export let venue = {
 export let gallery = {
   heading: "Gallery",
   subheading: "OUR RECENT DECORS",
+  gallery: [
+    {
+      category: "Engagement",
+      fetchlink: "",
+    },
+    {
+      category: "Wedding",
+      fetchlink: "",
+    },
+    ,
+    {
+      category: "Proposal",
+      fetchlink: "",
+    },
+    {
+      category: "Pool Party",
+      fetchlink: "",
+    },
+    {
+      category: "Concert",
+      fetchlink: "",
+    },
+    {
+      category: "Corporate Event",
+      fetchlink: "",
+    },
+    {
+      category: "Get Together",
+      fetchlink: "",
+    },
+  ],
 };
 
 export let testimonials = {
@@ -122,6 +159,36 @@ export let services = {
       name: "Experienced Staff",
       description:
         "Our professional staff is dedicated to making your event seamless and stress-free. From setup to service, we prioritize your comfort and satisfaction.",
+    },
+  ],
+  servicesCost: [
+    {
+      name: "banquet hall",
+      price: 20000,
+    },
+    {
+      name: "24 Rooms",
+      price: 10000,
+    },
+    {
+      name: "Catring",
+      price: 30000,
+    },
+    {
+      name: "Swiming pool",
+      price: 10000,
+    },
+    {
+      name: "Indoor hall",
+      price: 30000,
+    },
+    {
+      name: "Lighting decor",
+      price: 20000,
+    },
+    {
+      name: "Flower decoration",
+      price: 15000,
     },
   ],
 };
