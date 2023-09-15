@@ -3,5 +3,33 @@
     margin: 5px;
     border-radius: 5px;
     border: 0.1px solid var(--secondary-color);
+    background-color: white;
+}
 
+.tags:hover {
+    background-color: var(--secondary-color);
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+.selectedtags {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    color: var(--secondary-text-color);
+    border: none;
+    background-color: var(--secondary-color);
+}
+
+.TagHolder {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gallery-image img {
+    transition: all .5s ease-in-out;
+}
+
+.gallery-image img:hover {
+    transform: scale(1.07);
 }

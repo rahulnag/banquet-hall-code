@@ -57,13 +57,20 @@ export default function Gallery() {
 
   const Tags = () => {
     return [
-      <button onClick={(e) => setCat("")} className={styles["tags"]}>
+      <button
+        onClick={(e) => setCat("")}
+        className={"" == cat ? styles["selectedtags"] : styles["tags"]}
+      >
         All
       </button>,
       ...gallery.gallery.map((g) => {
         return (
           <button
-            className={styles["tags"]}
+            className={
+              g.category.replaceAll(" ", "")?.toLowerCase() == cat
+                ? styles["selectedtags"]
+                : styles["tags"]
+            }
             onClick={(e) =>
               setCat(e.target.textContent.replaceAll(" ", "")?.toLowerCase())
             }
@@ -89,7 +96,9 @@ export default function Gallery() {
                     width: "100%",
                     display: "block",
                     borderRadius: "var(--border-radius)",
+                    imageResolution: "300dpi",
                   }}
+                  loading="lazy"
                 />
               );
             })}
@@ -114,8 +123,8 @@ export default function Gallery() {
   };
 
   return (
-    <div className="container">
-      <div style={{ textAlign: "center" }}>
+    <div className={`container ${styles["gallery-image"]}`}>
+      <div className={styles.TagHolder}>
         <Tags />
       </div>
       <ImageView />

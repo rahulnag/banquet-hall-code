@@ -1,8 +1,8 @@
 .home-page-contact {
-    width: 98vw;
-    background-color: rgb(6 6 14);
+    width: 100%;
+    background-color: rgb(32 12 29);
     color: white;
-    padding: 10px;
+    padding: 5rem;
 }
 
 .card-holder {

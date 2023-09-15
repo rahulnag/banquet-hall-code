@@ -50,7 +50,7 @@ export let eventsSupporting = {
 };
 
 export let venue = {
-  heading: "We have the Jharkhand's best banquet hall",
+  heading: "We are the Jharkhand's best banquet hall",
   subheading:
     "Pratishtha boasts a stunning and versatile venue that can be tailored to accommodate events of various sizes and styles. From intimate gatherings to grand galas, our space is designed to reflect your vision. Our spacious hall is complemented by exquisite décor, premium lighting, and state-of-the-art audio-visual facilities to enhance your event.",
 };
@@ -207,3 +207,21 @@ export let contactus = {
 export let bookings = {};
 
 export let seoroutes = {};
+
+export let footer = {
+  heading: "Pratishtha",
+  web_list: [{ name: "wedding", route: "gallery" }, { name: "corporate", route: "gallery" }, { name: "engagement", route: "gallery" }, { name: "proporal", route: "gallery" }, { name: "pool party", route: "gallery" }, { name: "get together", route: "gallery" }, { name: "contact us", route: "contact-us" }, { name: "booking", route: "contact-us" }],
+  links: [{
+    name: "facebook",
+    link: ""
+  }, {
+    name: "instagram",
+    link: ""
+  }, {
+    name: "youtube",
+    link: ""
+  }],
+
+  subscribe: "Receive Updates & Special Announcements",
+  copyright: "© 2023 PRATISTHA, ALL RIGHTS RESERVED"
+}

@@ -1,5 +1,5 @@
 :root {
-  --background-color: #F5F5F6;
+  --background-color: #ffeffdd6;
   --primary-color: #000000;
   --secondary-color: #f99553;
   --secondary-text-color: #ffffff;
@@ -39,17 +39,18 @@ body {
   /* display: block; */
   width: auto;
   background-image: url(/decor3.webp);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: repeat;
   background-position: top center;
 }
 
 footer {
   background-color: #070117;
   color: #fff;
-  height: 6rem;
+  min-height: 6rem;
   text-align: center;
   margin-top: 10rem;
-  border-radius: 8px;
+  padding: 1rem;
 }
 
 main {
@@ -183,6 +184,7 @@ small {
   font-weight: 500;
   border-radius: var(--border-radius);
   margin: 0 2px 0 2px;
+  cursor: pointer;
 }
 
 .normal-gap {
