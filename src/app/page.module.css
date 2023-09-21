@@ -15,9 +15,9 @@
 }
 
 .welcomeSubSubheading {
-  color: var(--secondary-text-color);
-  position: absolute;
-  bottom: 0%;
+  color: var(--primary-text-color);
+  padding: 3rem;
+  text-align: center;
 }
 
 .landing-page-background {
@@ -28,11 +28,12 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.86)), url('/landing-page-image/pratistha.jpg');
+  background-image: linear-gradient(180deg, rgba(161, 161, 161, 0.347), rgba(0, 0, 0, 0.86)), url('/landing-page-image/pratistha.jpg');
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
 
 .booking-starting-price {
   color: var(--secondary-text-color);
+  margin-top: 1rem;
 }

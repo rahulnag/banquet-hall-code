@@ -3,10 +3,12 @@
   --primary-color: #000000;
   --secondary-color: #f99553;
   --secondary-text-color: #ffffff;
-  --primary-text-color: #272530;
+  --primary-text-color: #34322E;
+  --primary-text-color-light: #5f5b59;
   --card-background: #bcbcbc;
   --border-radius: 30px;
   --swiper-theme-color: var(--secondary-color) !important;
+  --border-color: #5f5b591c
 }
 
 @media (prefers-color-scheme: dark) {

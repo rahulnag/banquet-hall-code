@@ -20,9 +20,8 @@ export default function Home() {
         <small className={styles["booking-starting-price"]}>
           {homedata.bookingStartingPrice}
         </small>
-        <br />
-        <p className={styles.welcomeSubSubheading}>{homedata.subsubheading}</p>
       </div>
+      <p className={styles.welcomeSubSubheading}>{homedata.subsubheading}</p>
       <EventSupporting />
       <Venue />
       <Gallery />

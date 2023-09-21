@@ -2,8 +2,8 @@ export let homedata = {
   welcometext: "Pratishtha.",
   subheading: "A place to make better memories.",
   subsubheading:
-    "Welcome to a world of unparalleled elegance and exceptional service. At Pratistha, we take pride in turning your special occasions into unforgettable memories. With a blend of sophistication, meticulous attention to detail, and a commitment to excellence, our banquet hall is the perfect canvas for your celebrations.",
-  bookingStartingPrice: "Starting from 20,000/-",
+    "Welcome to a world of unparalleled elegance and exceptional service. At Pratishtha, we take pride in turning your special occasions into unforgettable memories. With a blend of sophistication, meticulous attention to detail, and a commitment to excellence, our banquet hall is the perfect canvas for your celebrations.",
+  bookingStartingPrice: "Starting from 4,50,000/- only",
 };
 
 export let eventsSupporting = {
@@ -134,6 +134,48 @@ export let testimonials = {
 export let services = {
   heading: "Services and Amenities",
   subheading: "",
+  facilities: [
+    {
+      name: "30+ Fully AC rooms",
+      img: 'ac'
+    },
+    {
+      name: "Veg & Non Veg Cuisines",
+      img: 'veg'
+    },
+    {
+      name: "Sufficient parking space for 200+ vehicles",
+      img: "parking"
+    },
+    {
+      name: "Swiming pool with 24hrs accessibility",
+      img: "pool"
+    },
+    {
+      name: "Sufficient lawn area",
+      img: "lawn"
+    },
+    {
+      name: "2 indoor party/ any function halls",
+      img: "hall"
+    },
+    {
+      name: "Capacity of 1000+ people",
+      img: "people"
+    },
+    {
+      name: "24/7 Power supply",
+      img: "power"
+    },
+    {
+      name: 'DJ and Sound system',
+      img: 'sound'
+    },
+    {
+      name: "Banquet decoration",
+      img: "light"
+    }
+  ],
   services: [
     {
       name: "Event Planning Expertise",
@@ -193,6 +235,51 @@ export let services = {
   ],
 };
 
+export let faq = {
+  heading: 'Frequently asked questions',
+  faq: [{
+    question: "Can we bring outside food ?",
+    answer: "Yes, definitely, you can bring that."
+  },
+  {
+    question: "Can we opt for only veg cuisines ?",
+    answer: "At Pratishta both Veg and Non-Veg is allowed and based on your choice you can keep veg, non-veg or both."
+  },
+  {
+    question: "How many indoor halls are there ?",
+    answer: "There are 2 indoor halls and we also have a large lawn area outdoor."
+  },
+  {
+    question: "Is the parking area available for all vehicles ?",
+    answer: "Yes, we have the parking area for all vehicles."
+  },
+  {
+    question: "Is the decoration done by Pratishtaha",
+    answer: "Yes, the full decoration is provided by us."
+  },
+  {
+    question: "Can we have the decoration from outside decoration planner ?",
+    answer: "Yes, you can add your own decoration on top of the decoration provided by us."
+  },
+  {
+    question: "Is their any time limit to play music ?",
+    answer: "As per the government terms and norms you can play loud music till 11PM, but you can play soft music in low volume whole night."
+  },
+  {
+    question: "Can we access swimming pool ?",
+    answer: "Yes you can access it, but children are allowed only if they know swimming."
+  },
+  {
+    question: "Till what time we can stay in the room/banquet hall ?",
+    answer: "It depends on the next day event."
+  },
+  {
+    question: "Do we need to pay 100% on the booking ?",
+    answer: "No, you have to pay 30% before event and rest 70% on or before the event date."
+  }]
+}
+
+
 export let contactus = {
   heading:
     "Ready to turn your event into an extraordinary experience? Contact our team to schedule a tour, discuss your event requirements, and receive a personalized quote.",
@@ -204,6 +291,9 @@ export let contactus = {
   openhours: "All day from 6:00 am to 10:00 pm",
 };
 
+export let aboutus = {
+  heading: "We, Pratishtha Banquet Hall and Resort, established in 2018 is located in Ranchi. We have covered 100 weddings yet. Pratishtha Banquet Hall and Resort offers the ideal setting for events of every size, from intimate get-togethers to lavish wedding festivities. We provides the ideal ambiance, competent service, excellent food, and well-kept locations to turn any occasion into a gorgeous and outstanding event. This is the place to pick if you're seeking for a gorgeous location to hold any of your nuptial ceremonies with elegance."
+}
 export let bookings = {};
 
 export let seoroutes = {};
