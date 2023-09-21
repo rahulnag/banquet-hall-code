@@ -33,11 +33,7 @@ export default function Booking() {
     }
   };
   return (
-    <div className={styles["booking-container"]}>
-      {/* <form
-        // action="reservation.php"
-        method="post"
-      > */}
+    <div className={`${styles["booking-container"]} container`}>
       <div className={styles.holder}>
         <div className={styles["elem-group"]}>
           <label className={styles.formLabel} for="name">
@@ -157,7 +153,6 @@ export default function Booking() {
         Confirm your booking
       </button>
       <small>Our executive will contact you soon.</small>
-      {/* </form> */}
     </div>
   );
 }

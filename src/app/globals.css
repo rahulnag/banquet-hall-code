@@ -8,7 +8,8 @@
   --card-background: #bcbcbc;
   --border-radius: 30px;
   --swiper-theme-color: var(--secondary-color) !important;
-  --border-color: #5f5b591c
+  --border-color: #5f5b591c;
+  --box-shadow: 0px 6px 7px -5px rgba(0, 0, 0, 0.43);
 }
 
 @media (prefers-color-scheme: dark) {

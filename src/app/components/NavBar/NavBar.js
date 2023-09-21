@@ -3,10 +3,44 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./page.module.css";
 import Image from "next/image";
+import React, { useState, useEffect } from 'react'
 export default function NavBar() {
   const pathname = usePathname();
+  // const [show, setShow] = useState(true);
+  // const [lastScrollY, setLastScrollY] = useState(0);
+
+
+  // const controlNavbar = () => {
+  //   if (typeof window !== 'undefined') {
+  //     if (window.scrollY > lastScrollY) { // if scroll down hide the navbar
+  //       setShow(false);
+  //     } else { // if scroll up show the navbar
+  //       setShow(true);
+  //     }
+
+  //     // remember current page location to use in the next move
+  //     setLastScrollY(window.scrollY);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   if (typeof window !== 'undefined') {
+  //     window.addEventListener('scroll', controlNavbar);
+
+  //     // cleanup function
+  //     return () => {
+  //       window.removeEventListener('scroll', controlNavbar);
+  //     };
+  //   }
+  // }, [lastScrollY]);
+
+
+
   return (
-    <div className={styles["nav-container"]}>
+    // <div className={`${styles["nav-container"]} 
+    // ${show && styles.hidden}
+    // `}>
+    <div className={`${styles["nav-container"]}`}>
       <div className={styles["nav-logo"]}>
         <Image
           height={50}
@@ -22,9 +56,8 @@ export default function NavBar() {
           <Link
             href="/"
             key="/"
-            className={`${
-              "/" == pathname ? styles["text-blue"] : styles["text-black"]
-            }`}
+            className={`${"/" == pathname ? styles["text-blue"] : styles["text-black"]
+              }`}
           >
             Home
           </Link>
@@ -33,11 +66,10 @@ export default function NavBar() {
           <Link
             href="/gallery"
             key="/gallery"
-            className={`${
-              "/gallery" == pathname
-                ? styles["text-blue"]
-                : styles["text-black"]
-            }`}
+            className={`${"/gallery" == pathname
+              ? styles["text-blue"]
+              : styles["text-black"]
+              }`}
           >
             Gallery
           </Link>
@@ -46,11 +78,10 @@ export default function NavBar() {
           <Link
             href="/services"
             key="/services"
-            className={`${
-              "/services" == pathname
-                ? styles["text-blue"]
-                : styles["text-black"]
-            }`}
+            className={`${"/services" == pathname
+              ? styles["text-blue"]
+              : styles["text-black"]
+              }`}
           >
             Services
           </Link>
@@ -59,11 +90,10 @@ export default function NavBar() {
           <Link
             href="/contact-us"
             key="/contact-us"
-            className={`${
-              "/contact-us" == pathname
-                ? styles["text-blue"]
-                : styles["text-black"]
-            }`}
+            className={`${"/contact-us" == pathname
+              ? styles["text-blue"]
+              : styles["text-black"]
+              }`}
           >
             Contact Us
           </Link>
@@ -72,11 +102,10 @@ export default function NavBar() {
           <Link
             href="/about-us"
             key="/about-us"
-            className={`${
-              "/about-us" == pathname
-                ? styles["text-blue"]
-                : styles["text-black"]
-            }`}
+            className={`${"/about-us" == pathname
+              ? styles["text-blue"]
+              : styles["text-black"]
+              }`}
           >
             About
           </Link>
